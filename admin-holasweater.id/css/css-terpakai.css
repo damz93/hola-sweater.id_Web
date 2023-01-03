@@ -1,0 +1,186 @@
+<style type="text/css">
+			body {
+			margin: 0;
+			font-family: "Lato", sans-serif;
+			}
+			.navbar_bot {
+			position: fixed;
+			height: auto;
+			bottom: 0;
+			width: auto;
+			padding:5px;
+			text-align:right;
+			right:0;
+			
+			}
+			.active, .collapsible:hover {
+			background-color: #555;
+			color: #6bcdec;
+			}
+			.collapsible:after {
+			color: #ffffff;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+			}
+			.active:after {
+			//	content: "\2212";
+			color: #ffffff;
+			}
+			.collapsible {
+			background-color: #ebebeb;
+			font-color: #3a3838;
+			cursor: pointer;
+			padding: 5px;
+			width: 100%;
+			border: none;
+			outline: none;
+			}
+			.active, .collapsible:hover {
+			background-color: #e7e7e7;
+			border: none;
+			outline: none;
+			border-size: 0px;
+			}
+			div.user{
+			padding-top: 100px;
+			padding-left: 80px;
+			width: 60%;
+			}
+			div.content {
+			margin-left: 340px;
+			padding-left:30px;
+			padding-top: 20px;
+			padding-right: 10px;
+			padding-bottom:120px;			
+			background-color: #ebebeb;
+			}
+			body {
+			margin: 0;
+			font-family: "Lato", sans-serif;
+			background-color: #ebebeb;
+			}
+			.sidebar {
+			margin: 0;
+			padding-top: 20px;
+			padding-left: 10px;
+			width: 300px;
+			background-color: #284d58;
+			position: fixed;
+			height: 100%;
+			color:#ffffff;
+			overflow: auto;
+			}
+			.sidebar a {
+			display: block;
+			color: white;
+			padding: 16px;
+			text-decoration: none;
+			}
+			.sidebar a.active {
+			background-color: #6bcdec;
+			color:#284d58;
+			}
+			.sidebar a:hover:not(.active) {
+			background-color: #6bcdec;
+			color:#284d58;
+			}
+			@media screen and (max-width: 700px) {
+			.sidebar {
+			width: 100%;
+			height: auto;
+			position: relative;
+			}
+			.sidebar a {float: left;}
+			div.content {margin-left: 0;}
+			}
+			@media screen and (max-width: 400px) {
+			.sidebar a {
+			text-align: center;
+			float: none;
+			}
+			}
+			.content2 {
+			padding-top: 0px;
+			padding-right: 10px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			color:white;
+			height: auto;
+			//			overflow-y: scroll;
+			display: none;
+			background-color: #284d58;
+			}
+			
+			#kirkan
+			{
+			width:100%;				
+			float:left;
+			padding-top: 15px;
+			padding-right: 30px;
+			padding-bottom: 100px;
+			padding-left: 40px;
+			height: auto;
+			overflow-y: scroll;
+			}
+			#kiri
+			{
+			width:40%;				
+			height:200px;
+			padding-bottom: 100px;
+			margin-bottom: 100px;
+			float:left;
+			}
+			#kanan
+			{
+			width:60%;
+			height:200px;
+			padding: 0px;
+			padding-bottom: 100px;
+			float:right;
+			}
+			.btn-outline-secondary {
+			color: #fff;
+			background-color: #6bcdec;
+			border-color: #6bcdec; /*set the color you want here*/
+			}
+			
+			.tab {
+			border: 1px solid #284d58;
+			overflow: hidden;
+			border: none;
+			background-color: #ebebeb;
+			}
+			/* Style the buttons inside the tab */
+			.tab button {
+			border: 1px solid #284d58;
+			background-color: #ebebeb;
+			color: #284d58;
+			float: left;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+			}
+			/* Change background color of buttons on hover */
+			.tab button:hover {
+				border: 1px solid #6bcdec;
+				background-color: #6bcdec;
+				color: #284d58;
+			}
+			/* Create an active/current tablink class */
+			.tab button.active {
+				border: 1px solid #284d58;
+				background-color: #284d58;
+			color: #ffffff;
+			}
+			/* Style the tab content */
+			.tabcontent {
+			display: none;
+			background-color: #ebebeb;
+			border: none;
+			color:#284d58;
+			padding: 6px 12px;
+			}
+		</style>
